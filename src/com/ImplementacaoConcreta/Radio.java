@@ -2,21 +2,21 @@ package com.ImplementacaoConcreta;
 
 import com.Implementacao.Dispositivo;
 
-public class Televisao implements Dispositivo {
+public class Radio implements Dispositivo {
 
 	@Override
 	public void ligar() {
-		System.out.println("Televisão ligada...");
+		System.out.println("Radio ligado...");
 	}
 
 	@Override
 	public void desligar() {
-		System.out.println("Televisão desligada...");
+		System.out.println("Radio desligado...");
 	}
 
 	@Override
 	public void mudarVolume() {
-		System.out.println("Mudando volume da TV...");
+		System.out.println("Mudando volume do radio...");
 	}
 
 }

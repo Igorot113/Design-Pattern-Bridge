@@ -20,7 +20,7 @@ public class ControleAvancado extends ControleRemoto {
 	}
 
 	@Override
-	public void mudarCanal(int canal) {
-		System.out.printf("Mudando canal para %d\n", canal);
+	public void mudarVolume() {
+		dispositivo.mudarVolume();
 	}
 }

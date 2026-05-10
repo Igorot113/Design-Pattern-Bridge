@@ -13,6 +13,6 @@ public abstract class ControleRemoto {
 
 	public abstract void desligar();
 
-	public abstract void mudarCanal(int numero);
+	public abstract void mudarVolume();
 
 }

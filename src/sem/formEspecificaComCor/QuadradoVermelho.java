@@ -1,6 +1,6 @@
-package formEspecificaComCor;
+package sem.formEspecificaComCor;
 
-import formaEspecifica.Quadrado;
+import sem.formaEspecifica.Quadrado;
 
 public class QuadradoVermelho extends Quadrado {
 	public String cor = "Vermelho";

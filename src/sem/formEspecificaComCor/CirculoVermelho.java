@@ -1,6 +1,6 @@
-package formEspecificaComCor;
+package sem.formEspecificaComCor;
 
-import formaEspecifica.Circulo;
+import sem.formaEspecifica.Circulo;
 
 public class CirculoVermelho extends Circulo {
 	public String cor = "Vermelho";

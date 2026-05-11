@@ -1,13 +1,13 @@
-package com.Main;
+package main;
 
 import com.AbstracaoRefinada.ControleAvancado;
 import com.Implementacao.Dispositivo;
 import com.ImplementacaoConcreta.*;
 
-import formEspecificaComCor.CirculoAzul;
-import formEspecificaComCor.CirculoVermelho;
-import formEspecificaComCor.QuadradoAzul;
-import formEspecificaComCor.QuadradoVermelho;
+import sem.formEspecificaComCor.CirculoAzul;
+import sem.formEspecificaComCor.CirculoVermelho;
+import sem.formEspecificaComCor.QuadradoAzul;
+import sem.formEspecificaComCor.QuadradoVermelho;
 
 public class Cliente {
 	public static void main(String[] args) {
